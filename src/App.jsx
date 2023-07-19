@@ -1,4 +1,4 @@
-import{About, Contact, Experience, Works, Feedbacks, Navbar, Tech, Hero , StarsCanvas } from './components'
+import{About, Contact, Experience, Works, Navbar, Tech, Hero , StarsCanvas } from './components'
 import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
@@ -15,7 +15,6 @@ const App = () => {
     <Experience/>
     <Tech/>
     <Works/>
-    <Feedbacks/>
     <div className='relative z-0 '>
     <Contact/>
     <StarsCanvas/>
