@@ -3,46 +3,46 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 262,
+      "count": 96,
       "max": [
-        45.529605865478516,
-        45.52960968017578,
-        352.8243713378906
+        0.6875,
+        0.48213666677474976,
+        0.5183340311050415
       ],
       "min": [
-        -45.529605865478516,
-        -45.529605865478516,
-        0.0
+        -0.6875,
+        -0.040854260325431824,
+        -0.5050969123840332
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 3144,
+      "byteOffset": 1152,
       "componentType": 5126,
-      "count": 262,
+      "count": 96,
       "max": [
-        0.9895520806312561,
-        0.9895520806312561,
-        0.9946709275245667
+        1.0,
+        0.9961947798728943,
+        0.9961947202682495
       ],
       "min": [
-        -0.9895520806312561,
-        -0.9895520806312561,
-        -1.0
+        -1.0,
+        -0.9961947798728943,
+        -0.9961947798728943
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 262,
+      "count": 96,
       "max": [
-        0.9559508562088013,
-        1.0
+        0.421875,
+        0.8125
       ],
       "min": [
-        -0.13228410482406616,
+        0.0,
         0.0
       ],
       "type": "VEC2"
@@ -50,87 +50,143 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 1188,
+      "count": 144,
       "type": "SCALAR"
     },
     {
       "bufferView": 2,
-      "byteOffset": 6288,
+      "byteOffset": 2304,
       "componentType": 5126,
-      "count": 80,
+      "count": 96,
       "max": [
-        45.6060676574707,
-        45.60607147216797,
-        290.5178527832031
+        0.625,
+        1.0316016674041748,
+        0.40470409393310547
       ],
       "min": [
-        -45.6060676574707,
-        -45.6060676574707,
-        150.7017059326172
+        -0.625,
+        -0.08677476644515991,
+        -0.5945951342582703
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 7248,
+      "byteOffset": 3456,
       "componentType": 5126,
-      "count": 80,
+      "count": 96,
       "max": [
-        0.9997141361236572,
-        0.9997140765190125,
-        0.15237447619438171
+        1.0,
+        0.9961947798728943,
+        0.9961947798728943
       ],
       "min": [
-        -0.9997140765190125,
-        -0.9997140765190125,
-        -0.023913895711302757
+        -1.0,
+        -0.9969687461853027,
+        -0.9961947798728943
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
-      "byteOffset": 2096,
+      "byteOffset": 768,
       "componentType": 5126,
-      "count": 80,
+      "count": 96,
       "max": [
-        0.9559508562088013,
-        1.0
+        1.0,
+        0.984375
       ],
       "min": [
-        0.04404915124177933,
-        1.0
+        0.296875,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
-      "byteOffset": 4752,
+      "byteOffset": 576,
       "componentType": 5125,
-      "count": 360,
+      "count": 144,
       "type": "SCALAR"
     },
     {
       "bufferView": 2,
-      "byteOffset": 8208,
+      "byteOffset": 4608,
       "componentType": 5126,
-      "count": 3238,
+      "count": 337,
       "max": [
-        27.06102752685547,
-        9.047748565673828,
-        21.86594009399414
+        0.20343494415283203,
+        0.09728816151618958,
+        0.19223374128341675
       ],
       "min": [
-        -31.033830642700195,
-        -149.9911346435547,
-        -24.357868194580078
+        -0.1875,
+        -0.07860387861728668,
+        -0.6447235345840454
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 47064,
+      "byteOffset": 8652,
       "componentType": 5126,
-      "count": 3238,
+      "count": 337,
+      "max": [
+        1.0,
+        0.9961947202682495,
+        0.9961947202682495
+      ],
+      "min": [
+        -1.0,
+        -0.9997811317443848,
+        -0.9961947202682495
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1536,
+      "componentType": 5126,
+      "count": 337,
+      "max": [
+        0.9922477602958679,
+        0.4434354305267334
+      ],
+      "min": [
+        0.75,
+        0.109375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1152,
+      "componentType": 5125,
+      "count": 507,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12696,
+      "componentType": 5126,
+      "count": 121,
+      "max": [
+        0.625,
+        0.0625,
+        0.24999994039535522
+      ],
+      "min": [
+        -0.625,
+        -0.10068131983280182,
+        -0.891777753829956
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14148,
+      "componentType": 5126,
+      "count": 121,
       "max": [
         1.0,
         1.0,
@@ -145,33 +201,33 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 2736,
+      "byteOffset": 4232,
       "componentType": 5126,
-      "count": 3238,
+      "count": 121,
       "max": [
-        0.7263754606246948,
-        0.9466204643249512
+        0.96875,
+        0.4466639757156372
       ],
       "min": [
-        0.2441248595714569,
-        0.04662052541971207
+        0.4375,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
-      "byteOffset": 6192,
+      "byteOffset": 3180,
       "componentType": 5125,
-      "count": 19392,
+      "count": 183,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Etherlyte (https://sketchfab.com/etherlyte)",
+      "author": "Tobalation (https://sketchfab.com/tobalation)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/lava-lamp-9a229700b95f44089033c6c9cec0eacc",
-      "title": "Lava Lamp"
+      "source": "https://sketchfab.com/3d-models/retro-computer-3a496376915846459d77fc14fdd6c1e0",
+      "title": "Retro computer"
     },
     "generator": "Sketchfab-12.67.0",
     "version": "2.0"
@@ -179,22 +235,22 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 83760,
+      "byteLength": 3912,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 28640,
-      "byteOffset": 83760,
+      "byteLength": 5200,
+      "byteOffset": 3912,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 85920,
-      "byteOffset": 112400,
+      "byteLength": 15600,
+      "byteOffset": 9112,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -202,53 +258,16 @@
   ],
   "buffers": [
     {
-      "byteLength": 198320,
+      "byteLength": 24712,
       "uri": "scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_transmission"
-  ],
   "images": [
     {
-      "uri": "textures/Material_25_baseColor.png"
+      "uri": "textures/TextureGrid_emissive.png"
     }
   ],
   "materials": [
-    {
-      "doubleSided": true,
-      "name": "Material_89",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.4219779078,
-          0.4219779078,
-          0.4219779078,
-          1.0
-        ],
-        "metallicFactor": 0.5931783537,
-        "roughnessFactor": 0.22999237800000005
-      }
-    },
-    {
-      "alphaMode": "BLEND",
-      "doubleSided": true,
-      "extensions": {
-        "KHR_materials_transmission": {
-          "transmissionFactor": 0.23608993899999997
-        }
-      },
-      "name": "Material_160",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1.0,
-          0.0,
-          0.5666273946,
-          0.763910061
-        ],
-        "metallicFactor": 0.245617378,
-        "roughnessFactor": 0.18121189019999995
-      }
-    },
     {
       "doubleSided": true,
       "emissiveFactor": [
@@ -259,19 +278,12 @@
       "emissiveTexture": {
         "index": 0
       },
-      "name": "Material_25",
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.8929713596
-      }
+      "name": "TextureGrid"
     }
   ],
   "meshes": [
     {
-      "name": "Cylinder006_Material #89_0",
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
@@ -286,7 +298,7 @@
       ]
     },
     {
-      "name": "Object005_Material #160_0",
+      "name": "Object_1",
       "primitives": [
         {
           "attributes": {
@@ -295,13 +307,13 @@
             "TEXCOORD_0": 6
           },
           "indices": 7,
-          "material": 1,
+          "material": 0,
           "mode": 4
         }
       ]
     },
     {
-      "name": "Sphere001_Material #25_0",
+      "name": "Object_2",
       "primitives": [
         {
           "attributes": {
@@ -310,7 +322,22 @@
             "TEXCOORD_0": 10
           },
           "indices": 11,
-          "material": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
           "mode": 4
         }
       ]
@@ -322,17 +349,17 @@
         1
       ],
       "matrix": [
-        0.002737211063504219,
+        0.3636363744735718,
         0.0,
         0.0,
         0.0,
         0.0,
-        6.077829491922191e-19,
-        -0.002737211063504219,
+        8.074349510635498e-17,
+        -0.3636363744735718,
         0.0,
         0.0,
-        0.002737211063504219,
-        6.077829491922191e-19,
+        0.3636363744735718,
+        8.074349510635498e-17,
         0.0,
         0.0,
         0.0,
@@ -345,109 +372,90 @@
       "children": [
         2
       ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
       "matrix": [
         1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.0,
+        2.220446049250313e-16,
         1.0,
         0.0,
         0.0,
         -1.0,
-        0.0,
+        2.220446049250313e-16,
         0.0,
         0.0,
         0.0,
         0.0,
         1.0
       ],
-      "name": "c65acf865d704cd9b56e154d746384d2.fbx"
-    },
-    {
-      "children": [
-        3,
-        6,
-        9
-      ],
-      "name": "RootNode"
+      "name": "GLTF_SceneRootNode"
     },
     {
       "children": [
         4
       ],
       "matrix": [
-        0.3890010118484497,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        4.637253408423758e-08,
-        -0.389001011848447,
+        0.9961946989169818,
+        0.08715573331516414,
         0.0,
         0.0,
-        0.389001011848447,
-        4.637253408423758e-08,
+        -0.08715573331516414,
+        0.9961946989169818,
         0.0,
-        8.953125,
-        -2.674541473388672,
-        -21.17889404296875,
+        0.0,
+        0.0,
+        -0.03125,
         1.0
       ],
-      "name": "Cylinder006"
-    },
-    {
-      "children": [
-        5
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        -0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        -6.733225745847449e-07,
-        -5.6482391357421875,
-        1.0
-      ],
-      "name": "Object_4"
+      "name": "PC_0"
     },
     {
       "mesh": 0,
-      "name": "Cylinder006_Material #89_0"
+      "name": "Object_4"
     },
     {
       "children": [
-        7
+        6
       ],
       "matrix": [
-        0.3890010118484497,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        4.637253408423758e-08,
-        -0.389001011848447,
+        0.9961946989169818,
+        0.08715573331516414,
         0.0,
         0.0,
-        0.389001011848447,
-        4.637253408423758e-08,
+        -0.08715573331516414,
+        0.9961946989169818,
         0.0,
-        8.953125,
-        -2.674541473388672,
-        -21.17889404296875,
+        0.0,
+        0.5000000596046448,
+        0.03125005215406418,
         1.0
       ],
-      "name": "Object005"
+      "name": "Monitor_1"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_6"
     },
     {
       "children": [
@@ -456,84 +464,60 @@
       "matrix": [
         1.0,
         0.0,
-        -0.0,
-        0.0,
-        0.0,
-        1.0,
         0.0,
         0.0,
         0.0,
+        0.9961946989169818,
+        0.08715573331516414,
         0.0,
-        1.0,
         0.0,
+        -0.08715573331516414,
+        0.9961946989169818,
         0.0,
-        -6.733225745847449e-07,
-        -5.6482391357421875,
+        0.875,
+        0.06250002235174179,
+        0.7500000596046448,
         1.0
       ],
-      "name": "Object_7"
+      "name": "Mouse_2"
     },
     {
-      "mesh": 1,
-      "name": "Object005_Material #160_0"
+      "mesh": 2,
+      "name": "Object_8"
     },
     {
       "children": [
         10
       ],
       "matrix": [
-        0.3890010118484497,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.38900101184844454,
-        6.337631224397975e-08,
+        0.9961946989169818,
+        0.08715573331516414,
         0.0,
         0.0,
-        -6.337631224397975e-08,
-        0.38900101184844454,
+        -0.08715573331516414,
+        0.9961946989169818,
         0.0,
-        11.123779296875,
-        -2.674541473388672,
-        -21.17889404296875,
+        0.0,
+        0.0624999925494194,
+        0.8125001192092896,
         1.0
       ],
-      "name": "Sphere001"
+      "name": "Keyboard_3"
     },
     {
-      "children": [
-        11
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        -0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        291.08465576171875,
-        -4.742371311294846e-05,
-        1.0
-      ],
+      "mesh": 3,
       "name": "Object_10"
-    },
-    {
-      "mesh": 2,
-      "name": "Sphere001_Material #25_0"
     }
   ],
   "samplers": [
     {
-      "magFilter": 9729,
-      "minFilter": 9987,
+      "magFilter": 9728,
+      "minFilter": 9728,
       "wrapS": 10497,
       "wrapT": 10497
     }
