@@ -31,7 +31,7 @@ const About = () => {
   return (
     <>
     <motion.div className=' mt-4 text-secondary text[17px] 
-    max-w-3xl leading-[30px]' 
+    max-w-3xl leading-[30px] mb-5' 
     variants={textVariant()}>
       <p className={styles.sectionSubText}> Introduction </p>
       <h2 className={styles.sectionHeadText}> Overview. </h2>
