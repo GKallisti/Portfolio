@@ -37,7 +37,7 @@ const About = () => {
       <h2 className={styles.sectionHeadText}> Overview. </h2>
     </motion.div>
     <motion.p
-    variants={fadeIn('','',0.5,1)}>
+    variants={fadeIn('','',0.5,1)} className='text-secondary font-bold text-[20px]'>
       Hello! I'm Gisella, an Argentine developer with experience 
       in graphic design and an unwavering love for programming 
       and video games.

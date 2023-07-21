@@ -9,9 +9,20 @@ const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
   return (
+<mesh>
+ <hemisphereLight intensity={1} groundColor='black' />
+      <spotLight
+        position={[0, 0, 0]}
+        angle={1}
+        penumbra={0.5}
+        intensity={0.5}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <pointLight intensity={7} />
     <primitive object={earth.scene} 
-    scale={2.5} position-y={0} rotation-y={0} />
-    
+    scale={0.9} position-y={-1} rotation-y={0} />
+    </mesh>
     )
 }
 

@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  gamedev,
   web,
   javascript,
   typescript,
@@ -14,15 +15,12 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  thebunker,
+  lobbylair,
+  argencade,
+  pokeapi,
 } from "../assets";
 
 
@@ -48,15 +46,15 @@ const services = [
   },
   {
     title: "Backend Developer",
-    icon: mobile,
+    icon: backend,
   },
   {
     title: "Creative Designer",
-    icon: backend,
+    icon: creator,
   },
   {
     title: "Game Developer",
-    icon: backend,
+    icon: gamedev,
   }
  
 ];
@@ -115,9 +113,9 @@ const experiences = [
   {
     title: "Freelance Web Developer",
     company_name: "Rastafi",
-    icon: shopify,
+    icon: meta,
     iconBg: "#383E56",
-    date: "May 2023 - Present",
+    date: "July 2023 - Present",
     points: [
       "Developing and maintaining en E-commerce web applications using React.js.",
       "Implementing responsive and creative web design.",
@@ -128,12 +126,12 @@ const experiences = [
     title: "Full stack Developer and Game Designer",
     company_name: "Kallisti Studios", 
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    iconBg: "#383E56",
+    date: "July 2023 - Present",
     points: [
       "Developing and structuring game mechanics.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in code reviews and pair-programming providing constructive feedback to other coworkers.",
+      "Participating in code reviews and pair-programming providing constructive feedback to other partners.",
     ],
   },
 ];
@@ -184,41 +182,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: lobbylair,
     source_code_link: "https://github.com/GKallisti/Lobbylair-Frontend",
   },
+  
   {
-    name: "Tilquicho",
+    name: "Api Poke-Ghost",
     description:
-      "Web Game that allows you to play with your friends in real time.",
+      "Pokedex clone Api made with React, PostgreSQL and Express.js.",
     tags: [
       {
-        name: "Qwik",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Express js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Rastafi",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
@@ -226,20 +204,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pokeapi,
+    source_code_link: "https://github.com/GKallisti/PI-Pokemon-Frontend",
   },
   {
-    name: "Rastafi",
+    name: "The Bunker Sala",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Landing page and online turn service made for a rehersal sala, I made it with HTML, Css, Javascript and .NET ",
     tags: [
       {
-        name: "nextjs",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
@@ -247,20 +225,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: thebunker,
+    source_code_link: "https://github.com/GKallisti/The-Bunker-Sala",
   },
   {
-    name: "Rastafi",
+    name: "Argencade - Gaming crowfunding project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Landing page crowfunding page made with HTML, Css, Javascript as a final project while coursing on UTN (National Tecnological University).",
     tags: [
       {
-        name: "nextjs",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
@@ -268,8 +246,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: argencade,
+    source_code_link: "https://github.com/GKallisti/Utn-Gaming-store",
   },
 ];
 

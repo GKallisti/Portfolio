@@ -60,8 +60,8 @@ const Contact = () => {
 
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden  z-[1]'>
-      <motion.div variants={slideIn("left", "tween", 0.5, 1.05)} className='flex-[0.75] bg-tertiary p-8 rounded-1xl ' >
+    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden  z-[1] '>
+      <motion.div variants={slideIn("left", "tween", 0.5, 1.05)} className='flex-[0.75] bg-primary p-8 rounded-1xl ' >
       <p className={`${styles.sectionSubText}`}> Reach Out:  </p>
       <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
       <form className="mt-12 flex flex-col gap-6" 
@@ -69,14 +69,14 @@ const Contact = () => {
 
         <label className='flex flex-col'>
           <span className=" text-white font-medium mb-4 ">Name</span>
-          <input className="bg-tertiary text-secondary py-4 px-6 placeholder:text-secondary rounded-1xl outline-none border-none font-medium" 
+          <input className="bg-tertiary text-white py-4 px-6 placeholder:text-black-200 rounded-1xl outline-none border-none font-medium" 
           type="text" name="name" value={form.name} onChange={handleChange}
           placeholder="Your Name goes here" />
         </label>
 
         <label className='flex flex-col'>
           <span className=" text-white font-medium mb-4 ">Email</span>
-           <input className="bg-tertiary text-secondary py-4 px-6 placeholder:text-secondary rounded-1xl outline-none border-none font-medium" 
+           <input className="bg-tertiary text-white py-4 px-6 placeholder:text-black-200 rounded-1xl outline-none border-none font-medium" 
           type="email" name="email" value={form.email} onChange={handleChange}
           placeholder="Your Email goes here" />
         </label>
@@ -84,12 +84,12 @@ const Contact = () => {
         <label className='flex flex-col'>
           <span className=" text-white font-medium mb-4 ">Message</span>
           <textarea rows='7'
-          className="bg-tertiary text-secondary py-4 px-6 placeholder:text-secondary rounded-1xl outline-none border-none font-medium" 
+          className="bg-tertiary text-white py-4 px-6 placeholder:text-black-200 rounded-1xl outline-none border-none font-medium" 
           name="message" value={form.message} onChange={handleChange}
           placeholder="What you want to say" />
         </label>
         <button type='submit' 
-        className='bg-secondary text-tertiary  py-4 px-5 outline-none rounded-1xl font-bold text-[18px] rounded-1xl '
+        className='bg-secondary text-black  py-4 px-5 outline-none rounded-1xl font-bold text-[22px] rounded-1xl '
          > {loading ? "Sending..." : "Send"}
         </button>
       </form>

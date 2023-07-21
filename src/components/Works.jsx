@@ -56,9 +56,9 @@ const Works = () => {
 </motion.div>
 <div className='w-full flex gap-5'>
   <motion.p variants={fadeIn("", "", 0.2, 1)}
-  className="mt-3 text-secondary text-[18px] font-semibold max-w-3xl leading-[30px] ">
+  className="mt-3 text-secondary text-[22px] font-semibold max-w-3xl leading-[30px] ">
   
-  These projects were created with React and Tailwind, some of them were made while 
+  These projects were created with different technologies, some of them were made while 
   learning, others for work, but always, all of them were made with love ❤.
         
   </motion.p>
