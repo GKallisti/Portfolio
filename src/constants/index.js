@@ -9,7 +9,7 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  portfolio,
   tailwind,
   nodejs,
   mongodb,
@@ -248,6 +248,27 @@ const projects = [
     ],
     image: argencade,
     source_code_link: "https://github.com/GKallisti/Utn-Gaming-store",
+  },
+  {
+    name: "My Portfolio",
+    description:
+      "Hey, you are looking at this one!.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/GKallisti/Portfolio",
   },
 ];
 

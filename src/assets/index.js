@@ -29,10 +29,13 @@ import lobbylair from "./lobbylair.png";
 import argencade from "./argencade.jpg";
 import pokeapi from "./pokeapi.jpg";
 import thebunker from "./thebunker.jpg";
+import portfolio from "./portfolio.png";
+
 
 
 export {
   logo,
+  portfolio,
   lobbylair,
   argencade,
   pokeapi,
