@@ -117,7 +117,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2023 - Present",
     points: [
-      "Developing and maintaining en E-commerce web applications using React.js.",
+      "Developing and maintaining an E-commerce web applications using React.js.",
       "Implementing responsive and creative web design.",
       "Providing the feedback from statistics of the admin dashboard to the client.",
     ],
