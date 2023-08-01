@@ -24,7 +24,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-
+import rpg from './RPG.png'
 import lobbylair from "./lobbylair.png";
 import argencade from "./argencade.jpg";
 import pokeapi from "./pokeapi.jpg";
@@ -62,5 +62,6 @@ export {
   typescript,
   threejs,
   meta,
+  rpg,
 
 };

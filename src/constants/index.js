@@ -21,6 +21,7 @@ import {
   lobbylair,
   argencade,
   pokeapi,
+  rpg,
 } from "../assets";
 
 
@@ -269,6 +270,27 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/GKallisti/Portfolio",
+  },
+  {
+    name: "Ugly RPG",
+    description:
+      "This one was my first ever project, its a minigame made on html and javascript purely made for training OOP and DOM manipulation.", 
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rpg,
+    source_code_link: "https://github.com/GKallisti/Ugly-RPG",
   },
 ];
 
