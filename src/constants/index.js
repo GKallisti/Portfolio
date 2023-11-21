@@ -22,6 +22,9 @@ import {
   argencade,
   pokeapi,
   rpg,
+  wordpress,
+  anhimalia,
+  febocak
 } from "../assets";
 
 
@@ -50,14 +53,14 @@ const services = [
     icon: backend,
   },
   {
-    title: "Creative Designer",
+    title: "Designer & Content creator",
     icon: creator,
   },
   {
     title: "Game Developer",
     icon: gamedev,
-  }
- 
+  },
+  
 ];
 
 const technologies = [
@@ -105,6 +108,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "wordpress",
+    icon: wordpress,
+  }
 
 
 ];
@@ -112,27 +119,27 @@ const technologies = [
 const experiences = [
   
   {
-    title: "Freelance Web Developer",
-    company_name: "Rastafi",
+    title: "Web Developer and designer",
+    company_name: "Make IT Girl",
     icon: meta,
     iconBg: "#383E56",
-    date: "July 2023 - Present",
+    date: "Agoust 2023 - Present",
     points: [
-      "Developing and maintaining an E-commerce web applications using React.js.",
+      "Developing and maintaining web applications using React, Wordpress, WooCommerce and other related technologies.",
       "Implementing responsive and creative web design.",
       "Providing the feedback from statistics of the admin dashboard to the client.",
     ],
   },
   {
-    title: "Full stack Developer and Game Designer",
-    company_name: "Kallisti Studios", 
+    title: "Content Creator",
+    company_name: "Nimax pools", 
     icon: meta,
     iconBg: "#383E56",
-    date: "July 2023 - Present",
+    date: "March 2023 - Present",
     points: [
-      "Developing and structuring game mechanics.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in code reviews and pair-programming providing constructive feedback to other partners.",
+      "Designing atractive content for social media.",
+      "Collaborating with cross-functional teams designers to create high-quality products.",
+      "Video editing and correction of raw material for Social media format.",
     ],
   },
 ];
@@ -165,6 +172,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Anhimalia",
+    description:
+      "Redesign and migration of a former HTML page to a brand new Wordpress Landing Page.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: anhimalia,
+    source_code_link: "https://anhimalia.org",
+  },
+
+  {
+    name: "Fe.bo.ca.k.",
+    description:
+      "Redesign and migration of a former HTML page to a brand new Wordpress Landing Page.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: febocak,
+    source_code_link: "https://febocak.org.ar",
+  },
+
   {
     name: "Lobby Lair",
     description:

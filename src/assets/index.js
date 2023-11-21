@@ -22,6 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png";
 
 import meta from "./company/meta.png";
 import rpg from './RPG.png'
@@ -30,7 +31,8 @@ import argencade from "./argencade.jpg";
 import pokeapi from "./pokeapi.jpg";
 import thebunker from "./thebunker.jpg";
 import portfolio from "./portfolio.png";
-
+import febocak from "./febocak.png";
+import anhimalia from "./anhimalia.png";
 
 
 export {
@@ -63,5 +65,8 @@ export {
   threejs,
   meta,
   rpg,
+  anhimalia,
+  febocak,
+  wordpress
 
 };
