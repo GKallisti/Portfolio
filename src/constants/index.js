@@ -24,7 +24,9 @@ import {
   rpg,
   wordpress,
   anhimalia,
-  febocak
+  febocak,
+  gorostidi,
+  premier
 } from "../assets";
 
 
@@ -173,6 +175,49 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Premier Muebles",
+    description:
+      "Design and implementation of a landing page for a furniture e-commerce.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: premier,
+    source_code_link: "https://premiermuebles.com/",
+  },
+  {
+    name: "Gorostidi Inmobiliaria",
+    description:
+      "Design and implementation of a premium wordpress theme for a real estate e-commerce.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gorostidi,
+    source_code_link: "https://gorostidiinmobiliaria.com.ar/",
+  },
+
+  {
     name: "Anhimalia",
     description:
       "Redesign and migration of a former HTML page to a brand new Wordpress Landing Page.",
@@ -281,9 +326,9 @@ const projects = [
     source_code_link: "https://github.com/GKallisti/The-Bunker-Sala",
   },
   {
-    name: "Argencade - Gaming crowfunding project",
+    name: "Argencade",
     description:
-      "Landing page crowfunding page made with HTML, Css, Javascript as a final project while coursing on UTN (National Tecnological University).",
+      "Crowfunding page made with HTML, Css, Javascript as a final project while coursing on National Technologic University.",
     tags: [
       {
         name: "Html",
@@ -304,7 +349,7 @@ const projects = [
   {
     name: "My Portfolio",
     description:
-      "Hey, you are looking at this one!.",
+      "  Hey there! You are looking at this one!.  ",
     tags: [
       {
         name: "React",
@@ -321,28 +366,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/GKallisti/Portfolio",
-  },
-  {
-    name: "Ugly RPG",
-    description:
-      "This one was my first ever project, its a minigame made on html and javascript purely made for training OOP and DOM manipulation.", 
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rpg,
-    source_code_link: "https://github.com/GKallisti/Ugly-RPG",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

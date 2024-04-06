@@ -23,7 +23,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
-
+import gorostidi from "./gorostidi.png";
+import premier from "./premier.png";
 import meta from "./company/meta.png";
 import rpg from './RPG.png'
 import lobbylair from "./lobbylair.png";
@@ -67,6 +68,8 @@ export {
   rpg,
   anhimalia,
   febocak,
-  wordpress
+  wordpress,
+  gorostidi,
+  premier
 
 };
